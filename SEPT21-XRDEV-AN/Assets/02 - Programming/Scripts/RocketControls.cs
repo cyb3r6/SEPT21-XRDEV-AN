@@ -12,6 +12,8 @@ public class RocketControls : MonoBehaviour
     public Rigidbody laserPrefab;
     public Transform spawnPoint;
     public float shootingForce = 500f;
+    public AudioSource audioSource;
+    public AudioClip laserShootSound;
     private Rigidbody rocketRigidbody;
     
 
@@ -86,5 +88,6 @@ public class RocketControls : MonoBehaviour
     {
         Rigidbody laser = Instantiate(laserPrefab, spawnPoint.position, spawnPoint.rotation);
         laser.AddForce(transform.forward * shootingForce);
+        audioSource.PlayOneShot(laserShootSound);
     }
 }
