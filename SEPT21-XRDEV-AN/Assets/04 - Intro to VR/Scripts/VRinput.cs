@@ -7,6 +7,8 @@ public class VRinput : MonoBehaviour
 {
     public Hand hand = Hand.Left;
     public float gripValue;
+    public Vector3 velocity;
+    public Vector3 angularVelocity;
 
     public UnityEvent OnGripDown;
     public UnityEvent OnGripUpdated;
@@ -14,6 +16,8 @@ public class VRinput : MonoBehaviour
 
     private string gripAxis;
     private string gripButton;
+    private Vector3 previousPosition;
+    private Vector3 previousAngularRotation;
 
     void Start()
     {
@@ -38,6 +42,13 @@ public class VRinput : MonoBehaviour
         {
             OnGripUp?.Invoke();
         }
+
+        velocity = (this.transform.position - previousPosition) / Time.deltaTime;
+        previousPosition = this.transform.position;
+
+        angularVelocity = (this.transform.eulerAngles - previousAngularRotation) / Time.deltaTime;
+        previousAngularRotation = this.transform.eulerAngles;
+
     }
 }
 

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Grabber : MonoBehaviour
 {
-
+    public VRinput controller;
+    public float throwForce;
     public GrabbableObject collidingObject;
     public GrabbableObject heldObject;
 
@@ -27,15 +28,41 @@ public class Grabber : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
+    
+    void Awake()
     {
-        
+        controller = GetComponent<VRinput>();
+
+        controller.OnGripDown.AddListener(Grab);
+        controller.OnGripUp.AddListener(Release);
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    public void Grab()
+    {
+        if(collidingObject != null)
+        {
+            heldObject = collidingObject;
+            heldObject.JointGrab(controller);
+        }
+    }
+
+    public void Release()
+    {
+        if (heldObject)
+        {
+            heldObject.JointRelease(controller);
+
+            // throw
+            heldObject.objectRigidbody.velocity = controller.velocity * throwForce;
+            heldObject.objectRigidbody.angularVelocity = controller.angularVelocity * throwForce;
+
+            heldObject = null;
+        }
     }
 }

@@ -15,12 +15,12 @@ E:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52571
+63636
 Successfully changed project path to: E:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN
 E:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 72.99 ms, found 8 plugins.
-Preloading 3 native plugins for Editor in 2.17 ms.
+Refreshing native plugins compatible for Editor in 167.10 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 3.25 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Assets
@@ -35,23 +35,23 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002437 seconds.
+Registered in 0.004280 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.45 ms, found 8 plugins.
-Preloading 3 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 75.48 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.948 seconds
+- Completed reload, in  3.013 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011702 seconds.
+Registered in 0.020615 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 65.34 ms, found 8 plugins.
-Preloading 3 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 111.21 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.12 ms.
 System.NullReferenceException: Object reference not set to an instance of an object
   at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
   at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
@@ -89,66 +89,1392 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: G:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  9.962 seconds
+- Completed reload, in  2.054 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.14 ms.
+Unloading 3233 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.6 MB.
+System memory in use after: 149.7 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3912.
+Total: 4.243600 ms (FindLiveObjects: 0.413500 ms CreateObjectMapping: 0.271700 ms MarkObjects: 2.500900 ms  DeleteObjects: 1.056200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/04 - Intro to VR/AddOns/Cheese.prefab
+  artifactKey: Guid(4d5544bbc634edc46b95b9965ca5f963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/AddOns/Cheese.prefab using Guid(4d5544bbc634edc46b95b9965ca5f963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b276a79a4af803d29393b5ce176b226a') in 0.286216 seconds
+  Import took 0.326127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 690.455738 seconds.
+  path: Assets/04 - Intro to VR/AddOns/Hamburger.prefab
+  artifactKey: Guid(83d6891e85cb22a4dafc7874418283df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/AddOns/Hamburger.prefab using Guid(83d6891e85cb22a4dafc7874418283df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b3eecc8d3b755adb8c150bed341219') in 0.040244 seconds
+  Import took 0.114899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008431 seconds.
+  path: Assets/04 - Intro to VR/AddOns/Hamburger.prefab
+  artifactKey: Guid(83d6891e85cb22a4dafc7874418283df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/AddOns/Hamburger.prefab using Guid(83d6891e85cb22a4dafc7874418283df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b3eecc8d3b755adb8c150bed341219') in 0.028532 seconds
+  Import took 0.042844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 807.234085 seconds.
+  path: Assets/04 - Intro to VR/AddOns/Hotdog.prefab
+  artifactKey: Guid(101de42edb89968419c0b28d28b946da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/AddOns/Hotdog.prefab using Guid(101de42edb89968419c0b28d28b946da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670e1043e38b2b77705eef7b7d327d71') in 0.063443 seconds
+  Import took 0.112308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010703 seconds.
+  path: Assets/04 - Intro to VR/AddOns/Hotdog.prefab
+  artifactKey: Guid(101de42edb89968419c0b28d28b946da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/AddOns/Hotdog.prefab using Guid(101de42edb89968419c0b28d28b946da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670e1043e38b2b77705eef7b7d327d71') in 0.045385 seconds
+  Import took 0.056557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.911321 seconds.
+  path: Assets/04 - Intro to VR/AddOns/Olive.prefab
+  artifactKey: Guid(aa78718a6d390224fac08a25318265d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/AddOns/Olive.prefab using Guid(aa78718a6d390224fac08a25318265d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1802907e074742aa59d51fe4a3c3f69') in 0.024918 seconds
+  Import took 0.079893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015287 seconds.
+  path: Assets/04 - Intro to VR/AddOns/Olive.prefab
+  artifactKey: Guid(aa78718a6d390224fac08a25318265d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/AddOns/Olive.prefab using Guid(aa78718a6d390224fac08a25318265d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1802907e074742aa59d51fe4a3c3f69') in 0.029055 seconds
+  Import took 0.041763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2799.097532 seconds.
+  path: Assets/04 - Intro to VR/AddOns/Cherry.prefab
+  artifactKey: Guid(5bbd993005b3e374fa2411feb1edd834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/AddOns/Cherry.prefab using Guid(5bbd993005b3e374fa2411feb1edd834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3f7d67409f1ad43e331595095307c5') in 0.033565 seconds
+  Import took 0.089000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014496 seconds.
+  path: Assets/04 - Intro to VR/AddOns/Cherry.prefab
+  artifactKey: Guid(5bbd993005b3e374fa2411feb1edd834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/AddOns/Cherry.prefab using Guid(5bbd993005b3e374fa2411feb1edd834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3f7d67409f1ad43e331595095307c5') in 0.024707 seconds
+  Import took 0.037120 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033950 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.14 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.187 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.11 ms.
+Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.6 MB.
+System memory in use after: 146.8 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 3961.
+Total: 4.511600 ms (FindLiveObjects: 0.419300 ms CreateObjectMapping: 0.160600 ms MarkObjects: 2.766600 ms  DeleteObjects: 1.163800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032756 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 1.41 ms, found 8 plugins.
 Preloading 3 native plugins for Editor in 0.17 ms.
-Unloading 3232 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.4 MB.
-System memory in use after: 149.4 MB.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
-Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 3911.
-Total: 3.759300 ms (FindLiveObjects: 0.367100 ms CreateObjectMapping: 0.166700 ms MarkObjects: 2.274700 ms  DeleteObjects: 0.949900 ms)
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.799 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.13 ms.
+Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.7 MB.
+System memory in use after: 146.9 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 3965.
+Total: 6.107600 ms (FindLiveObjects: 0.442000 ms CreateObjectMapping: 0.299800 ms MarkObjects: 3.498900 ms  DeleteObjects: 1.864800 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/04 - Intro to VR/Scripts/Grabber.cs
-  artifactKey: Guid(03e20c62c447d284caab0a26647e457e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04 - Intro to VR/Scripts/Grabber.cs using Guid(03e20c62c447d284caab0a26647e457e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445b546ccf1ed2322607717898151b22') in 0.102454 seconds
-  Import took 0.152690 seconds .
+  Time since last request: 1233.064607 seconds.
+  path: Assets/04 - Intro to VR/Scripts/Food.cs
+  artifactKey: Guid(c6eca5379a582a946acc398a7241243e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Scripts/Food.cs using Guid(c6eca5379a582a946acc398a7241243e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6414891ebeb08289d217d53dfbad19a2') in 0.017087 seconds
+  Import took 0.097875 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.040722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.24 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.19 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.080 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.16 ms.
+Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.9 MB.
+System memory in use after: 146.9 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 3969.
+Total: 5.461600 ms (FindLiveObjects: 0.634800 ms CreateObjectMapping: 0.358100 ms MarkObjects: 3.019700 ms  DeleteObjects: 1.446500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5318.779567 seconds.
-  path: Assets/03 - Introduction to AR Vuforia/Scenes/ARXray.unity
-  artifactKey: Guid(4aae3b79b1ad5a34cbb67f42f5ff5371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/03 - Introduction to AR Vuforia/Scenes/ARXray.unity using Guid(4aae3b79b1ad5a34cbb67f42f5ff5371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc15970609b988ee9cc40a0381bb8c2') in 0.087558 seconds
-  Import took 0.250091 seconds .
+  Time since last request: 270.029796 seconds.
+  path: Assets/04 - Intro to VR/Materials
+  artifactKey: Guid(72995ca92f103b849bb18211ae5cd9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Materials using Guid(72995ca92f103b849bb18211ae5cd9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3d2333b6e2b4dccd8f3e44bbd36daf') in 0.014075 seconds
+  Import took 0.050256 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 310.186110 seconds.
-  path: Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Ensenasoft inf.psd
-  artifactKey: Guid(5c8fb1f7b6d380248b213aab045a8d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Ensenasoft inf.psd using Guid(5c8fb1f7b6d380248b213aab045a8d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b9585668bbb7fb6e085bc69e219fdf') in 0.315158 seconds
-  Import took 0.340225 seconds .
+  Time since last request: 0.000869 seconds.
+  path: Assets/04 - Intro to VR/Materials
+  artifactKey: Guid(72995ca92f103b849bb18211ae5cd9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Materials using Guid(72995ca92f103b849bb18211ae5cd9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3d2333b6e2b4dccd8f3e44bbd36daf') in 0.007511 seconds
+  Import took 0.030208 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Ensenasoft VR Hands.psd
-  artifactKey: Guid(1b3c7268e46eaaf4baf444ca8b1b594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Ensenasoft VR Hands.psd using Guid(1b3c7268e46eaaf4baf444ca8b1b594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd5c73ac73b02bd098b090190b6b089') in 0.119128 seconds
-  Import took 0.153521 seconds .
+  Time since last request: 7.677478 seconds.
+  path: Assets/04 - Intro to VR/NewBehaviourScript.cs
+  artifactKey: Guid(a5119d6e8b4439b49944d41ea844fd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/NewBehaviourScript.cs using Guid(a5119d6e8b4439b49944d41ea844fd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0596d5ebd01e40b184d2de34149197') in 0.022441 seconds
+  Import took 0.059032 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.067261 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.17 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.100 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.12 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.9 MB.
+System memory in use after: 147.0 MB.
+
+Unloading 71 unused Assets to reduce memory usage. Loaded Objects now: 3974.
+Total: 5.226300 ms (FindLiveObjects: 0.457600 ms CreateObjectMapping: 0.240500 ms MarkObjects: 2.810200 ms  DeleteObjects: 1.716400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.490251 seconds.
+  path: Assets/04 - Intro to VR/VR Hand Pack
+  artifactKey: Guid(44c68ddeae63220429ef9f4918eac51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/VR Hand Pack using Guid(44c68ddeae63220429ef9f4918eac51b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2f51efb18e37e6764f59db38179969') in 0.013796 seconds
+  Import took 0.023749 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018431 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.12 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.293 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.91 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.18 ms.
+Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.9 MB.
+System memory in use after: 147.0 MB.
+
+Unloading 72 unused Assets to reduce memory usage. Loaded Objects now: 3977.
+Total: 5.301100 ms (FindLiveObjects: 0.502100 ms CreateObjectMapping: 0.239300 ms MarkObjects: 3.156600 ms  DeleteObjects: 1.401400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.298386 seconds.
+  path: Assets/04 - Intro to VR/Textures
+  artifactKey: Guid(ebedcbedf16a6594f9103027f49d10c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Textures using Guid(ebedcbedf16a6594f9103027f49d10c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd30711a1368966b9d97bdcaf23f4ae0') in 0.014243 seconds
+  Import took 0.072444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.519268 seconds.
+  path: Assets/02 - Programming/Textures/2k_earth_daymap.jpg
+  artifactKey: Guid(6a63890bf3a835d4e8780df12ea33353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02 - Programming/Textures/2k_earth_daymap.jpg using Guid(6a63890bf3a835d4e8780df12ea33353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190dbb39901cc382edc2e8d04e27e1ee') in 0.391846 seconds
+  Import took 0.447118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008107 seconds.
+  path: Assets/02 - Programming/Textures/2k_moon.jpg
+  artifactKey: Guid(301ea3a3e66ea774391fa2bfb639d350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02 - Programming/Textures/2k_moon.jpg using Guid(301ea3a3e66ea774391fa2bfb639d350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587bca1b9d44536ffe8f32da58755b28') in 0.194471 seconds
+  Import took 0.238086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/02 - Programming/Textures/2k_mars.jpg
+  artifactKey: Guid(219d1be88e41f684485be9ae246d4435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02 - Programming/Textures/2k_mars.jpg using Guid(219d1be88e41f684485be9ae246d4435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b29ccf1da0f7c32d4796d1ac5e158d') in 0.103130 seconds
+  Import took 0.129641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/02 - Programming/Textures/2k_earth_normal_map (1).tif
+  artifactKey: Guid(d416fc5299952174797725bdca6cc517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02 - Programming/Textures/2k_earth_normal_map (1).tif using Guid(d416fc5299952174797725bdca6cc517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332010462269f0cf681376e6129d526a') in 0.122053 seconds
+  Import took 0.154814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/02 - Programming/Textures/2k_earth_daymap.jpg
+  artifactKey: Guid(6a63890bf3a835d4e8780df12ea33353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02 - Programming/Textures/2k_earth_daymap.jpg using Guid(6a63890bf3a835d4e8780df12ea33353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190dbb39901cc382edc2e8d04e27e1ee') in 0.018023 seconds
+  Import took 0.030881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001097 seconds.
+  path: Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Brush_Flower.png
+  artifactKey: Guid(0d383f0cd0395064eb4b64619b2840f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Brush_Flower.png using Guid(0d383f0cd0395064eb4b64619b2840f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec80691d3e4c5360cb6460cfaec82ff3') in 0.251491 seconds
+  Import took 0.261761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/01 - Introduction/Textures/AdvancedFloorInterlockingOld_UnitySpecular2kBitmap/Textures/AdvancedFloorInterlockingOld_normal.png
+  artifactKey: Guid(97bf5794ebdb11c4c80430aa46549343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Textures/AdvancedFloorInterlockingOld_UnitySpecular2kBitmap/Textures/AdvancedFloorInterlockingOld_normal.png using Guid(97bf5794ebdb11c4c80430aa46549343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84254f0947dc3f89cceb3db2ab97a72') in 0.088730 seconds
+  Import took 0.166550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000635 seconds.
+  path: Assets/01 - Introduction/Textures/AdvancedFloorInterlockingOld_UnitySpecular2kBitmap/Textures/AdvancedFloorInterlockingOld_ambientocclusion.png
+  artifactKey: Guid(fda92724dccb67a4ab3cd947cf746990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Textures/AdvancedFloorInterlockingOld_UnitySpecular2kBitmap/Textures/AdvancedFloorInterlockingOld_ambientocclusion.png using Guid(fda92724dccb67a4ab3cd947cf746990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5b605c85f4615495b7ceb37434216b') in 0.091502 seconds
+  Import took 0.139961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Female low res_defaultMat_SpecularSmoothness.png
+  artifactKey: Guid(1b9ab5dbcd3563a40b5b18337c2e98f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Female low res_defaultMat_SpecularSmoothness.png using Guid(1b9ab5dbcd3563a40b5b18337c2e98f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e094c7b43d8087c598196163a3932bd7') in 0.034308 seconds
+  Import took 0.080059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
+  artifactKey: Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif using Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982ddec2c78806ed3e4d4eb15456d371') in 0.037414 seconds
+  Import took 0.082281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/01 - Introduction/Textures/AdvancedFloorInterlockingOld_UnitySpecular2kBitmap/Textures/AdvancedFloorInterlockingOld_emissive.png
+  artifactKey: Guid(13c88c15a380b4245bc0502ad5d6468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Textures/AdvancedFloorInterlockingOld_UnitySpecular2kBitmap/Textures/AdvancedFloorInterlockingOld_emissive.png using Guid(13c88c15a380b4245bc0502ad5d6468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757ca80242a22a56570d2350fc50793a') in 0.034226 seconds
+  Import took 0.052893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Female asian low res_defaultMat_AlbedoTransparency.png
+  artifactKey: Guid(40a42ad6eddf5974c8d71b2ff6133b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Female asian low res_defaultMat_AlbedoTransparency.png using Guid(40a42ad6eddf5974c8d71b2ff6133b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd4764866ea6887c0045028426366a9') in 0.131814 seconds
+  Import took 0.219799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000722 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif using Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749c327f69cb3a84153b3e6757e6de86') in 0.039568 seconds
+  Import took 0.058970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/02 - Programming/Textures/2k_saturn_ring_alpha.png
+  artifactKey: Guid(f1c1c7b41d16f4440afc97c9090687e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02 - Programming/Textures/2k_saturn_ring_alpha.png using Guid(f1c1c7b41d16f4440afc97c9090687e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b253916d57291fb7723450cf2d0112ef') in 0.135128 seconds
+  Import took 0.153510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif using Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf6696139322a2ba3a9a8bf8c918376') in 0.048695 seconds
+  Import took 0.147919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Brush_Grass_02.png
+  artifactKey: Guid(5d4b367f0702b4b46a16ba3b67281419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Brush_Grass_02.png using Guid(5d4b367f0702b4b46a16ba3b67281419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6708062bab3e863e8facd72f5a5a1c1') in 0.213087 seconds
+  Import took 0.228936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/SEPT21-XRDEV-AN/ARMergeCube_scaled.jpg
+  artifactKey: Guid(8ddf91a6ef8146f5b59d3d29f95d4eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/SEPT21-XRDEV-AN/ARMergeCube_scaled.jpg using Guid(8ddf91a6ef8146f5b59d3d29f95d4eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6cf161505b1156cd10ec6c3d01c01e') in 0.209667 seconds
+  Import took 0.226137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/01 - Introduction/Textures/AdvancedFloorInterlockingOld_UnitySpecular2kBitmap/Textures/AdvancedFloorInterlockingOld_specular.png
+  artifactKey: Guid(8b396777ae6e4284988ce718dc7cc6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Textures/AdvancedFloorInterlockingOld_UnitySpecular2kBitmap/Textures/AdvancedFloorInterlockingOld_specular.png using Guid(8b396777ae6e4284988ce718dc7cc6fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabd0e3ffcb6d0e169e93eeeafe865e3') in 0.038775 seconds
+  Import took 0.088600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/02 - Programming/Textures/2k_sun.jpg
+  artifactKey: Guid(75ddcd69bcd470e4aa47ef02c8f7bf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/02 - Programming/Textures/2k_sun.jpg using Guid(75ddcd69bcd470e4aa47ef02c8f7bf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e291a7a88ceac6a31a4a4c37dd86f14b') in 0.081000 seconds
+  Import took 0.106523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif
+  artifactKey: Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif using Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946d5cd69332c5a538bc65b973f06b31') in 0.030745 seconds
+  Import took 0.047017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif
+  artifactKey: Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif using Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe0c180528ff1444f7a8ac602607713') in 0.039752 seconds
+  Import took 0.063063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001304 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif
+  artifactKey: Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif using Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2bd7fe81a1233e7885f7121f152de2') in 0.103892 seconds
+  Import took 0.125753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001946 seconds.
+  path: Assets/01 - Introduction/Textures/AdvancedFloorInterlockingOld_UnitySpecular2kBitmap/Textures/AdvancedFloorInterlockingOld_albedo.png
+  artifactKey: Guid(427ed5f2abbc2014385f94bfbdbff211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Textures/AdvancedFloorInterlockingOld_UnitySpecular2kBitmap/Textures/AdvancedFloorInterlockingOld_albedo.png using Guid(427ed5f2abbc2014385f94bfbdbff211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5602424ec2dbfae811e28bd28de80ff') in 0.049785 seconds
+  Import took 0.107738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001393 seconds.
+  path: Assets/01 - Introduction/Textures/AdvancedFloorInterlockingOld_UnitySpecular2kBitmap/Textures/AdvancedFloorInterlockingOld_opacity.png
+  artifactKey: Guid(66101df80e9c5df49ba232637adce91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Textures/AdvancedFloorInterlockingOld_UnitySpecular2kBitmap/Textures/AdvancedFloorInterlockingOld_opacity.png using Guid(66101df80e9c5df49ba232637adce91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3753e21057847355b93d83ba886e141') in 0.051966 seconds
+  Import took 0.106528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001419 seconds.
+  path: Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Brush_Grass_01.png
+  artifactKey: Guid(e3970f24555e12a46b75cdf5140ff23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Brush_Grass_01.png using Guid(e3970f24555e12a46b75cdf5140ff23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00733a433f1d7c7e45632fa6543e4a00') in 0.242023 seconds
+  Import took 0.298467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Female low res_defaultMat_Normal.png
+  artifactKey: Guid(b4c4a035aecb94d4fb847194b994fe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Female low res_defaultMat_Normal.png using Guid(b4c4a035aecb94d4fb847194b994fe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6c01ba26d9754b1e3ab0c3491b8c0e') in 0.063327 seconds
+  Import took 0.106946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif
+  artifactKey: Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Albedo.tif using Guid(eae496078d11426448124eaf8b285e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb15450a21fe62e201ad8d6ee2ccf5e4') in 0.063557 seconds
+  Import took 0.079271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Female low res_defaultMat_AlbedoTransparency.png
+  artifactKey: Guid(8cc160f8ccc766a49b481d470116efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Female low res_defaultMat_AlbedoTransparency.png using Guid(8cc160f8ccc766a49b481d470116efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02cbe4e030f9e9ef7a1561d2cbfa24b') in 0.029287 seconds
+  Import took 0.045092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/SEPT21-XRDEV-AN/ARAppleCider_scaled.jpg
+  artifactKey: Guid(d1f77bafd1ee4a99b52327cbc995b433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/SEPT21-XRDEV-AN/ARAppleCider_scaled.jpg using Guid(d1f77bafd1ee4a99b52327cbc995b433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87f2536ffacc55ce2867e7bde7c55d7') in 0.178843 seconds
+  Import took 0.223521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000873 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif
+  artifactKey: Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif using Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c841f94827fbff327e60c0faecb6793') in 0.032678 seconds
+  Import took 0.074629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001080 seconds.
+  path: Assets/Editor/Vuforia/ImageTargetTextures/Books/alchemist_scaled.jpg
+  artifactKey: Guid(3c22f4b0c14d4579898747a1a95b3bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/Vuforia/ImageTargetTextures/Books/alchemist_scaled.jpg using Guid(3c22f4b0c14d4579898747a1a95b3bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915b8856562fb87c7f7043fb4a7e3e89') in 0.205200 seconds
+  Import took 0.216643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/01 - Introduction/Textures/AdvancedFloorInterlockingOld_UnitySpecular2kBitmap/Textures/AdvancedFloorInterlockingOld_height.png
+  artifactKey: Guid(6b64e9c990eb43048a37a47cdeb55167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Textures/AdvancedFloorInterlockingOld_UnitySpecular2kBitmap/Textures/AdvancedFloorInterlockingOld_height.png using Guid(6b64e9c990eb43048a37a47cdeb55167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee0eec02cccc2a19d09349548aa29e7') in 0.029333 seconds
+  Import took 0.086999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.807691 seconds.
+  path: Assets/04 - Intro to VR/Textures/target2.png
+  artifactKey: Guid(bbe075460665606428009d1f04304f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Textures/target2.png using Guid(bbe075460665606428009d1f04304f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2eb2ec0a1ab3084a5f4796b227eb9a') in 0.030500 seconds
+  Import took 0.140534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.050778 seconds.
+  path: Assets/04 - Intro to VR/Textures/target2.png
+  artifactKey: Guid(bbe075460665606428009d1f04304f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Textures/target2.png using Guid(bbe075460665606428009d1f04304f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1baaa01d27c3464be19a3a3003fd9c') in 0.015928 seconds
+  Import took 0.024579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.314671 seconds.
+  path: Assets/04 - Intro to VR/Textures/target3.png
+  artifactKey: Guid(0a36749209e879b45856ace2929dcc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Textures/target3.png using Guid(0a36749209e879b45856ace2929dcc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2989e60cc469d4fff46141709883f038') in 0.024317 seconds
+  Import took 0.095707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.262935 seconds.
+  path: Assets/04 - Intro to VR/Textures/target3.png
+  artifactKey: Guid(0a36749209e879b45856ace2929dcc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Textures/target3.png using Guid(0a36749209e879b45856ace2929dcc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ec1d985e3dac9e5ba81d4c9c8a1c6e') in 0.019751 seconds
+  Import took 0.060882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.556850 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif
+  artifactKey: Guid(9644eb6aca67672449e2bcbb0eab8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_Albedo.tif using Guid(9644eb6aca67672449e2bcbb0eab8e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f38eeee3ba3fffb37a5b36b8075dc1') in 0.144545 seconds
+  Import took 0.172304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Seraphim hand cloths lowres_Seraphim_hand_armor_AlbedoTransparency.png
+  artifactKey: Guid(d06d939c0fe2bf84f8b810e683941881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Seraphim hand cloths lowres_Seraphim_hand_armor_AlbedoTransparency.png using Guid(d06d939c0fe2bf84f8b810e683941881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1920d990ce6f55873314e7eb126e956') in 0.028596 seconds
+  Import took 0.070387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/01 - Introduction/Textures/RedStripe.png
+  artifactKey: Guid(79b3b9bf0cc9dcc4d94f9f6205727e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Textures/RedStripe.png using Guid(79b3b9bf0cc9dcc4d94f9f6205727e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8fb306c25acb7aa93a1037690fc11a') in 0.020763 seconds
+  Import took 0.074057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001087 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_MetallicOcculusionSmoothness.tif using Guid(2e38f7921b7d7b1418ab63c08117ffb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7d0885d5d3f6fbbd90c042b69f9e88') in 0.082232 seconds
+  Import took 0.123178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Texture_Dirt_Normal.png
+  artifactKey: Guid(6372a4abc4700ef4aad94d04602e89bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Texture_Dirt_Normal.png using Guid(6372a4abc4700ef4aad94d04602e89bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a23f422cc8e35333d465da470abfc8') in 0.158470 seconds
+  Import took 0.192833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Texture_Grass_Normal.png
+  artifactKey: Guid(69e10fcec9984ba4f839a5693383c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Texture_Grass_Normal.png using Guid(69e10fcec9984ba4f839a5693383c57e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0fe12b5294e7b7bec21330d89bfffeb') in 0.183082 seconds
+  Import took 0.212735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Seraphim hand cloths lowres_Seraphim_hand_armor_SpecularSmoothness.png
+  artifactKey: Guid(2b81eec8c06716f4788d462246cf9a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Seraphim hand cloths lowres_Seraphim_hand_armor_SpecularSmoothness.png using Guid(2b81eec8c06716f4788d462246cf9a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2adc3ab8f5864cc9751b1acfcb0b49') in 0.024426 seconds
+  Import took 0.042781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000810 seconds.
+  path: Assets/TutorialInfo/Icons/UniversalIcon.png
+  artifactKey: Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/UniversalIcon.png using Guid(7801804018a7dcf42abb827444e18660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ab7b06a7ae976593e63eab06c173a5') in 0.030187 seconds
+  Import took 0.064193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000609 seconds.
+  path: Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Tempest hand armor_initialShadingGroup_Normal.png
+  artifactKey: Guid(63b2ccb97f7c5a640b842d7a0ee8e70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Tempest hand armor_initialShadingGroup_Normal.png using Guid(63b2ccb97f7c5a640b842d7a0ee8e70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001216b370f6f557b418cf829dd2f9a2') in 0.035732 seconds
+  Import took 0.067920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/01 - Introduction/Bitgem/StylisedWater/URP/Textures/waves_n.png
+  artifactKey: Guid(f87d53fcaf34530488b706ee35d9b519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Bitgem/StylisedWater/URP/Textures/waves_n.png using Guid(f87d53fcaf34530488b706ee35d9b519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8f460b9dd748dd6a4c2d7b0c1a0491') in 0.102855 seconds
+  Import took 0.121765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Texture_Grass_Diffuse.png
+  artifactKey: Guid(5e1acf362611957488060eee4178b3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Texture_Grass_Diffuse.png using Guid(5e1acf362611957488060eee4178b3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911cf99bc78fc32cce7b9adedf2323bd') in 0.110117 seconds
+  Import took 0.120537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Texture_Rock_Diffuse.png
+  artifactKey: Guid(5749f76eaefd4464d864cb20ae8451aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Texture_Rock_Diffuse.png using Guid(5749f76eaefd4464d864cb20ae8451aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862a260d1f9bcf02ae862b867ef5419c') in 0.116733 seconds
+  Import took 0.137725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif
+  artifactKey: Guid(2148396b133b56f40baa7ea4fd22982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Wood/Plywood_Normal.tif using Guid(2148396b133b56f40baa7ea4fd22982a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0daa67847d3d88b7d8ddf2196b30d0') in 0.014917 seconds
+  Import took 0.038220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(6f61f8dd4499250438f1aa39448e860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_MetallicOcculusionSmoothness.tif using Guid(6f61f8dd4499250438f1aa39448e860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db801b7341b72ac89af1ccc533f0c95d') in 0.022360 seconds
+  Import took 0.035135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/01 - Introduction/Textures/stripe.png
+  artifactKey: Guid(cbcc023585aca4849a0d2d6f0fc7b92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Textures/stripe.png using Guid(cbcc023585aca4849a0d2d6f0fc7b92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc80f33ace038a9e710e82e50b900de') in 0.029393 seconds
+  Import took 0.066958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Tempest hand armor_initialShadingGroup_SpecularSmoothness.png
+  artifactKey: Guid(d1a23f4d2b306314aa4f06f7e1c845f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Tempest hand armor_initialShadingGroup_SpecularSmoothness.png using Guid(d1a23f4d2b306314aa4f06f7e1c845f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2d145b7ce0f680830893d0d60d4c02') in 0.026212 seconds
+  Import took 0.037541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/01 - Introduction/Textures/testTexture.png
+  artifactKey: Guid(adc822fff795b9b408d69152f267ddd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Textures/testTexture.png using Guid(adc822fff795b9b408d69152f267ddd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4477851b909e658083c5de71c698d0eb') in 0.020685 seconds
+  Import took 0.034538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Tempest hand armor_initialShadingGroup_AlbedoTransparency.png
+  artifactKey: Guid(5a48dbfa172c5b542ab4f039fbb8f7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Tempest hand armor_initialShadingGroup_AlbedoTransparency.png using Guid(5a48dbfa172c5b542ab4f039fbb8f7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a36be75120e2a68ded2a68dc2e6f9ee4') in 0.058148 seconds
+  Import took 0.070635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif
+  artifactKey: Guid(dd61af2ec9847eb4d8e17529fa61b143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Albedo.tif using Guid(dd61af2ec9847eb4d8e17529fa61b143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b5de26f29a9b83626a1235819a3b3c') in 0.021463 seconds
+  Import took 0.042859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003185 seconds.
+  path: Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/SampleTerrain.asset
+  artifactKey: Guid(053158c74390f9e4eb2fbfb90564a82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/SampleTerrain.asset using Guid(053158c74390f9e4eb2fbfb90564a82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93d956265152fda0eba19250c071d6c') in 0.520570 seconds
+  Import took 0.544234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001286 seconds.
+  path: Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Texure_Rock_Normal.png
+  artifactKey: Guid(758b1fc63752a1e44957111d5af9b00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Texure_Rock_Normal.png using Guid(758b1fc63752a1e44957111d5af9b00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caaf53ccfbec8223377f03868c812523') in 0.206792 seconds
+  Import took 0.224330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Seraphim hand cloths lowres_Seraphim_hand_armor_Normal.png
+  artifactKey: Guid(b64c9c4bc6c6aa04b904ae9527894661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Seraphim hand cloths lowres_Seraphim_hand_armor_Normal.png using Guid(b64c9c4bc6c6aa04b904ae9527894661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424e834dd90feff4f23b4f351839b172') in 0.040856 seconds
+  Import took 0.051077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif
+  artifactKey: Guid(d608c45da8580c9408ee50eb9a8c40f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/HardHat/SafetyHat_Normal.tif using Guid(d608c45da8580c9408ee50eb9a8c40f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d06e58bd7e85a6c6d0cdc9dd2b8b73') in 0.020159 seconds
+  Import took 0.036191 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000412 seconds.
-  path: Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Ensenasoft inf.psd
-  artifactKey: Guid(5c8fb1f7b6d380248b213aab045a8d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Ensenasoft inf.psd using Guid(5c8fb1f7b6d380248b213aab045a8d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b9585668bbb7fb6e085bc69e219fdf') in 0.023654 seconds
-  Import took 0.030781 seconds .
+  path: Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Texture_Dirt_Diffuse.png
+  artifactKey: Guid(37d1938c74868484ea08b34225eb73b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01 - Introduction/Fantasy Skybox FREE/Scenes/Texture_Dirt_Diffuse.png using Guid(37d1938c74868484ea08b34225eb73b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010f2009eb4cdb1c87862aa79d4ad220') in 0.087942 seconds
+  Import took 0.102227 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Ensenasoft VR Hands.psd
-  artifactKey: Guid(1b3c7268e46eaaf4baf444ca8b1b594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/04 - Intro to VR/VR Hand Pack/ENSNSFT Characters/VR Hands/Textures/Ensenasoft VR Hands.psd using Guid(1b3c7268e46eaaf4baf444ca8b1b594e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd5c73ac73b02bd098b090190b6b089') in 0.021082 seconds
-  Import took 0.030346 seconds .
+  Time since last request: 50.465848 seconds.
+  path: Assets/04 - Intro to VR/Target.prefab
+  artifactKey: Guid(2d29335cd4458784697e9cef965814d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Target.prefab using Guid(2d29335cd4458784697e9cef965814d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa1d9ca52c97f4cfb03f75b09f2707f') in 0.283698 seconds
+  Import took 0.320926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.122566 seconds.
+  path: Assets/04 - Intro to VR/Scripts/Target.cs
+  artifactKey: Guid(66a982d56bc0d7d4997737a7d44818ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Scripts/Target.cs using Guid(66a982d56bc0d7d4997737a7d44818ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97452cb3f144109c2a7da05462637688') in 0.007601 seconds
+  Import took 0.087635 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021079 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.89 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.17 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.101 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.13 ms.
+Unloading 3108 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.9 MB.
+System memory in use after: 149.6 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 4039.
+Total: 4.280800 ms (FindLiveObjects: 0.404500 ms CreateObjectMapping: 0.205300 ms MarkObjects: 2.853700 ms  DeleteObjects: 0.816000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 826.145498 seconds.
+  path: Assets/04 - Intro to VR/Scripts/Target.cs
+  artifactKey: Guid(66a982d56bc0d7d4997737a7d44818ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Scripts/Target.cs using Guid(66a982d56bc0d7d4997737a7d44818ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb9c6c764f4b32c34f3b80ef97b4819') in 0.053953 seconds
+  Import took 0.131824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.248827 seconds.
+  path: Assets/04 - Intro to VR/Target.prefab
+  artifactKey: Guid(2d29335cd4458784697e9cef965814d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Target.prefab using Guid(2d29335cd4458784697e9cef965814d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b14f78042f062a21d20e49196e05e5') in 0.336259 seconds
+  Import took 0.348671 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029566 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.21 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.150 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.37 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.20 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 149.9 MB.
+System memory in use after: 148.7 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 4079.
+Total: 9.457500 ms (FindLiveObjects: 0.680000 ms CreateObjectMapping: 0.400900 ms MarkObjects: 6.103400 ms  DeleteObjects: 2.270800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.275301 seconds.
+  path: Assets/04 - Intro to VR/Target.prefab
+  artifactKey: Guid(2d29335cd4458784697e9cef965814d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Target.prefab using Guid(2d29335cd4458784697e9cef965814d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c720b942c2f1c4c523225eb1c80e34fb') in 0.411328 seconds
+  Import took 0.443298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.133460 seconds.
+  path: Assets/04 - Intro to VR/Target.prefab
+  artifactKey: Guid(2d29335cd4458784697e9cef965814d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Target.prefab using Guid(2d29335cd4458784697e9cef965814d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6afcc5d4d08d4c20f7af6ac11a61dd') in 0.034666 seconds
+  Import took 0.076334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.853681 seconds.
+  path: Assets/04 - Intro to VR/Target.prefab
+  artifactKey: Guid(2d29335cd4458784697e9cef965814d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Target.prefab using Guid(2d29335cd4458784697e9cef965814d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0565bcd4d990ece25001c520e234954d') in 0.027780 seconds
+  Import took 0.069498 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.15 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.259 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.18 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.1 MB.
+System memory in use after: 148.9 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 4119.
+Total: 5.146700 ms (FindLiveObjects: 0.467300 ms CreateObjectMapping: 0.191700 ms MarkObjects: 3.551200 ms  DeleteObjects: 0.934600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.425120 seconds.
+  path: Assets/04 - Intro to VR/Scripts/SpawnArea.cs
+  artifactKey: Guid(63eaa0e5f100b2748bcc058643597f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Scripts/SpawnArea.cs using Guid(63eaa0e5f100b2748bcc058643597f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0771106b11542b440c8366cccf5123df') in 0.019973 seconds
+  Import took 0.041693 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017008 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.16 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.377 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.12 ms.
+Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.1 MB.
+System memory in use after: 148.9 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 4124.
+Total: 7.162100 ms (FindLiveObjects: 0.558800 ms CreateObjectMapping: 0.313200 ms MarkObjects: 4.936200 ms  DeleteObjects: 1.351600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.055144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.15 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.555 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.23 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.17 ms.
+Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.2 MB.
+System memory in use after: 148.9 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 4128.
+Total: 5.173700 ms (FindLiveObjects: 0.599800 ms CreateObjectMapping: 0.302300 ms MarkObjects: 3.249900 ms  DeleteObjects: 1.019200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017410 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.16 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.655 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.60 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.20 ms.
+Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.2 MB.
+System memory in use after: 148.9 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 4132.
+Total: 27.070900 ms (FindLiveObjects: 11.611800 ms CreateObjectMapping: 0.789500 ms MarkObjects: 13.076600 ms  DeleteObjects: 1.586100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026762 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.21 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.118 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.11 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.19 ms.
+Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.1 MB.
+System memory in use after: 148.9 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 4136.
+Total: 14.077500 ms (FindLiveObjects: 1.029700 ms CreateObjectMapping: 0.712400 ms MarkObjects: 9.419700 ms  DeleteObjects: 2.911700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.052615 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 4.09 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.37 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <67f168408fbf4fce9c04342c093e9fe7>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in G:\Unity\GitHub\SEPT21-XRDEV-AN\SEPT21-XRDEV-AN\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: G:/Unity/GitHub/SEPT21-XRDEV-AN/SEPT21-XRDEV-AN/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  7.986 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.13 ms, found 8 plugins.
+Preloading 3 native plugins for Editor in 0.20 ms.
+Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.2 MB.
+System memory in use after: 149.0 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 4140.
+Total: 13.240300 ms (FindLiveObjects: 3.851900 ms CreateObjectMapping: 0.885300 ms MarkObjects: 6.343000 ms  DeleteObjects: 2.155700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1320.757678 seconds.
+  path: Assets/04 - Intro to VR/Target.prefab
+  artifactKey: Guid(2d29335cd4458784697e9cef965814d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/04 - Intro to VR/Target.prefab using Guid(2d29335cd4458784697e9cef965814d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1422e0b5f182e0ffdef0478040541777') in 0.302964 seconds
+  Import took 0.369513 seconds .
 
