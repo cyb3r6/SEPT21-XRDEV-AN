@@ -4,22 +4,24 @@ using UnityEngine;
 
 public class Target : MonoBehaviour
 {
-    public float moveSpeed;
+    public float maxMoveSpeed = 3;
     public float moveAmount;
     public SpawnArea game;
 
     private float startingXPosition;
-
+    public float speed;
 
     void Awake()
     {
         startingXPosition = transform.position.x;
+
+        speed = Random.Range(0, maxMoveSpeed);
     }
 
     void Update()
     {
         var newPosition = transform.position;
-        newPosition.x = startingXPosition + Mathf.Sin(Time.time * moveSpeed) *  moveAmount;
+        newPosition.x = startingXPosition + Mathf.Sin(Time.time * speed) *  moveAmount;
         transform.position = newPosition;
     }
 
@@ -32,7 +34,7 @@ public class Target : MonoBehaviour
             Destroy(foodStuff.gameObject);
             Destroy(gameObject);
             game.SpawnTarget();
-
+            game.AddToScore(speed);
         }
     }
 }

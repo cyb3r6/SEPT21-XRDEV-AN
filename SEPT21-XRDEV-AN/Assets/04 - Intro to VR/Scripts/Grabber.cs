@@ -16,6 +16,7 @@ public class Grabber : MonoBehaviour
         {
             grab.OnHoverStart();
             collidingObject = grab;
+            Debug.Log($"colliding object is {collidingObject}, grabbed is {grab}");
         }
     }
     private void OnTriggerExit(Collider other)

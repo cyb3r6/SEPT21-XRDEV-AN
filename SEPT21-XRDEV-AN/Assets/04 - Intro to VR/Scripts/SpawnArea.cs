@@ -1,15 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpawnArea : MonoBehaviour
 {
     public BoxCollider spawnBox;
     public Target targetPrefab;
-    // Start is called before the first frame update
+    public float score = 0;
+    public Text playerScoreText;
+
     void Start()
     {
         SpawnTarget();
+        PrintToText();
+
     }
 
     public void SpawnTarget()
@@ -26,5 +31,15 @@ public class SpawnArea : MonoBehaviour
         var z = Random.Range(spawnBox.bounds.min.z, spawnBox.bounds.max.z);
 
         return new Vector3(x, y, z);
+    }
+    public void AddToScore(float value)
+    {
+        score += value;
+        PrintToText();
+    }
+
+    public void PrintToText()
+    {
+        playerScoreText.text = $"Player Score: {score}";
     }
 }

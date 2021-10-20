@@ -13,9 +13,13 @@ public class VRinput : MonoBehaviour
     public UnityEvent OnGripDown;
     public UnityEvent OnGripUpdated;
     public UnityEvent OnGripUp;
+    public UnityEvent OnThumbstickDown;
+    public UnityEvent OnThumbstickUpdated;
+    public UnityEvent OnThumbstickUp;
 
     private string gripAxis;
     private string gripButton;
+    private string thumbstickButton;
     private Vector3 previousPosition;
     private Vector3 previousAngularRotation;
 
@@ -23,6 +27,7 @@ public class VRinput : MonoBehaviour
     {
         gripAxis = $"XRI_{hand}_Grip";
         gripButton = $"XRI_{hand}_GripButton";
+        thumbstickButton = $"XRI_{hand}_Primary2DAxisClick";
     }
 
     
@@ -41,6 +46,18 @@ public class VRinput : MonoBehaviour
         if (Input.GetButtonUp(gripButton))
         {
             OnGripUp?.Invoke();
+        }
+        if (Input.GetButtonDown(thumbstickButton))
+        {
+            OnThumbstickDown?.Invoke();
+        }
+        if (Input.GetButton(thumbstickButton))
+        {
+            OnThumbstickUpdated?.Invoke();
+        }
+        if (Input.GetButtonUp(thumbstickButton))
+        {
+            OnThumbstickUp?.Invoke();
         }
 
         velocity = (this.transform.position - previousPosition) / Time.deltaTime;
