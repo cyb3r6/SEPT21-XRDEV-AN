@@ -9,6 +9,7 @@ public class VRinput : MonoBehaviour
     public float gripValue;
     public Vector3 velocity;
     public Vector3 angularVelocity;
+    public Vector2 thumbstick;
 
     public UnityEvent OnGripDown;
     public UnityEvent OnGripUpdated;
@@ -20,20 +21,26 @@ public class VRinput : MonoBehaviour
     private string gripAxis;
     private string gripButton;
     private string thumbstickButton;
+    private string thumbstickX;
+    private string thumbstickY;
     private Vector3 previousPosition;
     private Vector3 previousAngularRotation;
-
+    
     void Start()
     {
         gripAxis = $"XRI_{hand}_Grip";
         gripButton = $"XRI_{hand}_GripButton";
         thumbstickButton = $"XRI_{hand}_Primary2DAxisClick";
+        thumbstickX = $"XRI_{hand}_Primary2DAxis_Horizontal";
+        thumbstickY = $"XRI_{hand}_Primary2DAxis_Vertical";
     }
 
     
     void Update()
     {
         gripValue = Input.GetAxis(gripAxis);
+
+        thumbstick = new Vector2(Input.GetAxis(thumbstickX), Input.GetAxis(thumbstickY));
 
         if (Input.GetButtonDown(gripButton))
         {
