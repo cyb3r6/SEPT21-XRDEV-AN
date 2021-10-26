@@ -56,5 +56,23 @@ public class GrabbableObject : MonoBehaviour
         FixedJoint fx = controller.GetComponent<FixedJoint>();
         Destroy(fx);
     }
+
+    public virtual void OnInteraction()
+    {
+
+    }
+
+
+    public virtual void OnUpdateInteraction()
+    {
+
+    }
+
+
+    public virtual void OnStopInteraction()
+    {
+
+    }
+    
    
 }
