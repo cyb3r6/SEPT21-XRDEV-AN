@@ -6,12 +6,19 @@ public class Paintbrush : GrabbableObject
 {
     public GameObject paintPrefab;
     public GameObject spawnedPaint;
+    public GameObject lastSpawnedPaint;
 
     private PaintbrushTip paintbrushTip;
+    private bool undoRedo = false;
     private void Start()
     {
         paintbrushTip = GetComponentInChildren<PaintbrushTip>();
 
+    }
+
+    private void Update()
+    {
+        
     }
 
     public override void OnInteraction()
@@ -31,7 +38,15 @@ public class Paintbrush : GrabbableObject
 
     public override void OnStopInteraction()
     {
-
+        lastSpawnedPaint = spawnedPaint;
         spawnedPaint = null;
+    }
+    public override void OnAButtonDown()
+    {
+        undoRedo = !undoRedo;
+        if(undoRedo == true)
+        {
+            Destroy(lastSpawnedPaint);
+        }
     }
 }

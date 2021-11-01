@@ -74,6 +74,7 @@ public class VRTeleportation : MonoBehaviour
             StartCoroutine(FadeTeleport());
             shouldTeleport = false;
             line.enabled = false;
+            reticle.SetActive(false);
         }
     }
 

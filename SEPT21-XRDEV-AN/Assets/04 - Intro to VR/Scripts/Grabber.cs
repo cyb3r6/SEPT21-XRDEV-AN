@@ -55,6 +55,7 @@ public class Grabber : MonoBehaviour
             controller.OnTriggerDown.AddListener(heldObject.OnInteraction);
             controller.OnTriggerUpdated.AddListener(heldObject.OnUpdateInteraction);
             controller.OnTriggerUp.AddListener(heldObject.OnStopInteraction);
+            controller.OnAButtonDown.AddListener(heldObject.OnAButtonDown);
         }
     }
 
@@ -72,6 +73,7 @@ public class Grabber : MonoBehaviour
             controller.OnTriggerDown.RemoveListener(heldObject.OnInteraction);
             controller.OnTriggerUpdated.RemoveListener(heldObject.OnUpdateInteraction);
             controller.OnTriggerUp.RemoveListener(heldObject.OnStopInteraction);
+            controller.OnAButtonDown.RemoveListener(heldObject.OnAButtonDown);
 
             heldObject = null;
         }

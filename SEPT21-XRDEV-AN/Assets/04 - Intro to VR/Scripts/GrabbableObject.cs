@@ -74,5 +74,9 @@ public class GrabbableObject : MonoBehaviour
 
     }
     
+    public virtual void OnAButtonDown()
+    {
+
+    }
    
 }
