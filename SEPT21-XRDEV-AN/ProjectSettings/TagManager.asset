@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Paint
+  - Teleportation
   layers:
   - Default
   - TransparentFX
